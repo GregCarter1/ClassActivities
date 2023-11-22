@@ -6,7 +6,7 @@ console.log(firstparam);
 console.log(secondparam);
 
 // then return the parameters added together
-return (firstparam + secondparam);
+return firstparam + secondparam;
 }
 // invoke the function and pass in two numbers
 myFunction(2, 4);
@@ -18,7 +18,7 @@ myFunction(6);
 function myFunctionTwo(firstparam = 2, secondparam = 5) {
 // again, invoke the function and pass in only one number
 console.log(firstparam, secondparam);
-return (firstparam, secondparam);
+return firstparam, secondparam;
 }
 myFunctionTwo(10);
 
@@ -34,3 +34,4 @@ console.log(myRestParam);
 myFunction()
 // again, invoke the function and pass in more than two numbers
 myFunction(4,5,6,7,8);
+
