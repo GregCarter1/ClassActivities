@@ -8,10 +8,10 @@ function addNumbersFrom1To100() {
 }
   return total;
 }
-addNumbersFrom1To100(total);
+addNumbersFrom1To100();
 
 // invoke the function and console.log its value
-addNumbersFrom1To100();
+console.log(addNumbersFrom1To100());
 // try to print the variable "total" outside the function
 console.log(total);
 // ? what do you expect ? "undefined"
