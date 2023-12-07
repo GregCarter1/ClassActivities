@@ -1,9 +1,32 @@
 /*
 	Several CSS sections will be added from activity 5
 */
+header {
+  background-image: url(https://source.unsplash.com/random/800x600);
+  background-size: cover;
+  height: 100vh;
+}
+header < button {
+  text-decoration: none;
+  background-color: rgb(184, 190, 214);
+  font-size: 1.5em;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
 
 header > h1 {
   color: darkblue;
+}
+@media (min-width: 550px) {
+  nav > .fa-bars {
+    display: none;
+  }
+}
+/* in HTML: <ul class="hidden--mobile"> */
+@media (max-width: 549px) {
+  .hidden--mobile {
+    display: none;
+  }
 }
 
 body > form {
@@ -46,10 +69,11 @@ body > form {
   }
 }
 
-
-
-@media (min-width: 2000px) {
-  * {
-    color:orange;
+@media (min-width: 550px) {
+  nav > .fa-bars {
+    display: none; */
   }
 }
+
+
+

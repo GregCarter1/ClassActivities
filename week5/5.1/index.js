@@ -1,3 +1,11 @@
+document.querySelector(".fa-bars").addEventListener("click", () => {
+  document.querySelector("nav > ul").classList.toggle("hidden--mobile");
+});
+
+
+
+
+
 // const form = document.querySelector("form");
 // form.addEventListener("submit", (event) => {
 //   event.preventDefault();
@@ -16,17 +24,17 @@
 // });
 
 // Save the Form DOM element to a variable so we can use it later in the code.
-const form = document.querySelector("form");
+// const form = document.querySelector("form");
 
-form.addEventListener("submit", event => {
-  event.preventDefault();
+// form.addEventListener("submit", event => {
+//   event.preventDefault();
 
-  console.log("The form was submitted!");
+//   console.log("The form was submitted!");
 
-  console.log("event", event);
+//   console.log("event", event);
 
-  const inputs = event.target.elements;
-  console.log("form's input elements: ", inputs);
+//   const inputs = event.target.elements;
+//   console.log("form's input elements: ", inputs);
 
   // Utilize for... of loop to show class how to access name and value from inputs
   for (let input of inputs) {
